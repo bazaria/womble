@@ -1,0 +1,48 @@
+body{ 
+    background-image: url("img/bg.png");
+    background-repeat: repeat;
+    background-size: 7%;
+}
+
+.title{
+    text-align: center;
+    font-size: 9rem;
+    color:brown;
+    margin: 0 auto;
+}
+
+.key-row{
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.key:hover, .key-accept:hover, .key-delete:hover{
+    cursor: pointer;
+}
+
+.key{
+    padding:0.05em;
+    margin: 0.1em;
+    background-color: #fdf498;
+}
+
+.guesses_wrapper{
+    display: flex;
+    margin: 3rem auto;
+    width: 40rem;
+    height: 40rem;
+    background-color: black;
+}
+
+.wrapper_right{
+    background-color: red;
+}
+.wrapper_left{
+    background-color: blue;
+}
+
+.wrapper_right, .wrapper_left{
+    height: 100%;
+    width: 50%;
+}
