@@ -7,50 +7,32 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="icon" href="img/bg.png">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <script>
 
     </script>
 </head>
 <body>
-    <div class="title wrapper">
+    <header>
         <h1 class="title">✡️Womble Dumble✡️</h1>
-    </div>
+    </header>
     <div class="guesses_wrapper">
-        <div class="wrapper_right"></div>
-        <div class="wrapper_left"></div>
+        <p id="result"></p>
     </div>
     <div class="keyboard_wrapper">
         <div class="key-row">
-            <div class="key-accept">✅</div>
-            <div class="key-delete">❎</div>
+            <div class="key-accept" id="key-roll">✅</div>
         </div>
     </div>
     <div class="keyboard_wrapper">
         <div class="key-row">
-            <div class="key">⏮</div>
-            <div class="key">⏪</div>
-            <div class="key">◀️</div>
-            <div class="key">⏸</div>
-            <div class="key">⏹</div>
-            <div class="key">⏺</div>
-            <div class="key">▶️</div>
-            <div class="key">⏩</div>
-            <div class="key">⏭</div>
-        </div>
-    </div>
-    <div class="keyboard_wrapper">
-        <div class="key-row">
-            <div class="key">🛃</div>
-            <div class="key">🛂</div>
-            <div class="key">🚮 </div>
-            <div class="key">🛐</div>
-            <div class="key">🚻</div>
-            <div class="key">🚼</div>
-            <div class="key">♒️</div>
-            <div class="key">☢️</div>
-            <div class="key">☣️</div>
+            <div class="key" id="key0"></div>
+            <div class="key" id="key1"></div>
+            <div class="key" id="key2"></div>
+            <div class="key" id="key3"></div>
+            <div class="key" id="key4"></div>
+
         </div>
     </div>
     <audio loop autoplay id="audioplayer">

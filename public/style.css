@@ -1,13 +1,13 @@
 body{ 
     background-image: url("img/bg.png");
     background-repeat: repeat;
-    background-size: 7%;
+    background-size: 15%;
 }
 
 .title{
     text-align: center;
-    font-size: 9rem;
-    color:brown;
+    font-size: 6rem;
+    color:green;
     margin: 0 auto;
 }
 
@@ -22,24 +22,50 @@ body{
 }
 
 .key{
-    padding:0.05em;
-    margin: 0.1em;
-    background-color: #fdf498;
+        padding:0.05em;
+        margin: 0.1em;
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
 }
+
+.key-blue{
+    background-image: url('img/ac.png')
+}
+
+.key-red{
+    background-image: url('img/ad.png')
+}
+
+.key-yellow{
+    background-image: url('img/ah.png')
+}
+
+.key-green{
+    background-image: url('img/as.png')
+}
+
 
 .guesses_wrapper{
     display: flex;
     margin: 3rem auto;
-    width: 40rem;
-    height: 40rem;
-    background-color: black;
+    width: 500px;
+    height: 500px;
+    background-color: darkslateblue;
+    text-align: center;
 }
 
-.wrapper_right{
-    background-color: red;
+
+#result{
+    font-size: 70px;
+    margin: auto;
 }
-.wrapper_left{
-    background-color: blue;
+
+
+#guess_text {
+    width: max-content;
+    font-size: 3rem;
 }
 
 .wrapper_right, .wrapper_left{
