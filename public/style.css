@@ -93,3 +93,43 @@ body{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+#guesses_tracker{
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+
+}
+
+#victory-screen{
+    position: fixed;
+    top: calc(50% - 150px);
+    left: calc(50% - 100px);
+    background-color: red;
+    width: 200px;
+    height: 300px;
+
+    justify-content: center;
+    display:none;
+    flex-direction: column;
+}
+
+#victory-nessage{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#copy_result{
+    margin: auto;
+    padding: 20px;
+    background-color: greenyellow;
+}
